@@ -27,7 +27,7 @@ const VideoCard = ({ video: { id: { videoId } , snippet }}) => {
             <CheckCircle sx={{ fontSize: 12, color: 'gray', ml:'5px'}} />
           </Typography>
         </Link>
-        </CardContent>
+      </CardContent>
     </Card>
   )
 }
